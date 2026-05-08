@@ -1,0 +1,3 @@
+- Gast (gast): vorname[string/text], nachname[string/text], email[string/email], telefon[string/text]
+- Buchung (buchung): notizen[string/textarea], abreise[date/date], naechte[number], einzelpreis_pro_nacht[number], anreise[date/date], gesamtpreis[number], gast[applookup/select], buchungsnummer[string/text], status[lookup/radio], mwst[number], brutto[number]
+  → gast links to app_id 69fdfba4d263fdb57bdc8894

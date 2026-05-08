@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "gast",
+      "app_id": "69fdfba4d263fdb57bdc8894",
+      "path": "/rest/apps/69fdfba4d263fdb57bdc8894/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "email",
+        "telefon"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Gast — Formular"
+    },
+    {
+      "entity": "buchung",
+      "app_id": "69fdfba922f9c14bc17cc80f",
+      "path": "/rest/apps/69fdfba922f9c14bc17cc80f/records",
+      "allowed_fields": [
+        "notizen",
+        "abreise",
+        "naechte",
+        "einzelpreis_pro_nacht",
+        "anreise",
+        "gesamtpreis",
+        "buchungsnummer",
+        "status",
+        "mwst",
+        "brutto"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Buchung — Formular"
+    }
+  ]
+}
